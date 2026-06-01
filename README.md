@@ -89,14 +89,14 @@ for p in PRESETS:
 
 | Index | Win Condition |
 |-------|---------------|
-| 0–6   | Majority (K = 1.01) |
-| 7–13  | Minority (K = −0.01) |
+| 0–6   | (Pure) Majority / Standard (K > 1.0) |
+| 7–13  | (Pure) Minority / Inverse (K < 0.0) |
 | 14–20 | Majority < 80% (K = 0.8) |
 | 21–27 | Majority < 60% (K = 0.6) |
 | 28–34 | Minority > 40% (K = 0.4) |
 | 35–41 | Minority > 20% (K = 0.2) |
-| 42–48 | Majority, 10-turn Blitz |
-| 49–55 | Minority, 10-turn Blitz |
+| 42–48 | Majority, 10-turn Blitz (turn limits, K > 1.0) |
+| 49–55 | Minority, 10-turn Blitz (turn limits, K < 0.0)|
 
 **Board configurations** (same order within each group, offset +0 to +6):
 
