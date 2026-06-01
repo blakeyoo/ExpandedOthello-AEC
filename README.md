@@ -128,9 +128,8 @@ from expanded_othello import make_env
 env = make_env(
     board_size=(10, 10),          # int or (rows, cols)
     obstacles=[(0, 0), (9, 9)],   # list of (row, col) to block
-    win_cond=0.6,                 # K value
-    n_turns=20,                   # max turns (-1 = unlimited)
-    turn_rule="default",          # "default" or "fewer_consecutive"
+    win_cond=1.0,                 # K value
+    n_turns=-1,                   # max turns (-1 = unlimited)
 )
 ```
 
@@ -140,12 +139,12 @@ env = make_env(
 
 | K value | Rule |
 |---------|------|
-| `1.01` | Standard majority — most discs wins, no draw threshold |
+| `K > 1.0` | Standard / Pure majority — most discs wins, no draw threshold |
 | `1.0`  | Majority — sweeping all discs = draw |
 | `0.5 < K < 1.0` | Majority — winning with ≥ K ratio = draw |
 | `0.0 < K < 0.5` | Minority — winning with ≤ K ratio = draw |
 | `0.0`  | Minority — having zero discs = draw |
-| `< 0`  | Pure minority — fewest discs wins, no draw threshold |
+| `K < 0.0`  | Pure minority / Inverse — fewest discs wins, no draw threshold |
 
 ---
 
