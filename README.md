@@ -3,7 +3,7 @@
 A parametric Othello benchmark for evaluating agents under unseen conditions, as introduced in:
 
 > **The Expanded Othello AI Arena: Evaluating Intelligent Systems Through Constrained Adaptation to Unseen Conditions**  
-> [Byunghwa Yoo](https://scholar.google.com/citations?user=XIIINK4AAAAJ&hl=en), [Sundong Kim](https://sundong.kim/), and [Kyung-Joong Kim]([https://cilab.gist.ac.kr/hp/](https://scholar.google.com/citations?user=YBYE93sAAAAJ&hl=en))
+> [Byunghwa Yoo](https://scholar.google.com/citations?user=XIIINK4AAAAJ&hl=en), [Sundong Kim](https://sundong.kim/), and [Kyung-Joong Kim](https://scholar.google.com/citations?user=YBYE93sAAAAJ&hl=en))
 > 
 > *Transactions on Machine Learning Research (TMLR), 2026*  
 > [[Paper]](https://openreview.net/forum?id=WXKQtqPC2d) [[Agent Implementation Code]]
