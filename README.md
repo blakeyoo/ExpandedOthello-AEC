@@ -22,14 +22,14 @@ The benchmark includes **56 official test environments** spanning 7 board config
 ## Installation
 
 ```bash
-pip install git+<repository-url>
+pip install git+https://github.com/blakeyoo/ExpandedOthello-AEC.git
 ```
 
 Or clone and install locally:
 
 ```bash
-git clone <repository-url>
-cd expanded-othello
+git clone [ExpandedOthello-AEC](https://github.com/blakeyoo/ExpandedOthello-AEC.git)
+cd ExpandedOthello-AEC
 pip install -e .
 ```
 
