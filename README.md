@@ -110,11 +110,11 @@ for p in PRESETS:
 | +5 | Random Board 2 | 6×8 |
 | +6 | Random Board 3 | 10×10 |
 
-| Standard | No Corners | Partial C-Squares |
+| Standard | No Corners | Partial C-Squares | X-Squares |
 |:---:|:---:|:---:|:---:|
 | ![Standard](images/board_standard.svg) | ![No Corners](images/board_no_corners.svg) | ![Partial C](images/board_partial_c.svg) | ![X-Squares](images/board_x_squares.svg) |
 
-| X-Squares | Random 1 | Random 2 | Random 3 |
+| Random 1 | Random 2 | Random 3 |
 |:---:|:---:|:---:|
 | ![Random 1](images/board_random1.svg) | ![Random 2](images/board_random2.svg) | ![Random 3](images/board_random3.svg) |
 
