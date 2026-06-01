@@ -5,7 +5,7 @@ A parametric Othello benchmark for evaluating agents under unseen conditions, as
 > **The Expanded Othello AI Arena: Evaluating Intelligent Systems Through Constrained Adaptation to Unseen Conditions**  
 > Byunghwa Yoo, Sundong Kim, Kyung-Joong Kim — GIST Department of AI Convergence  
 > *Transactions on Machine Learning Research, 2026*  
-> [[Paper]](https://openreview.net/forum?id=WXKQtqPC2d) [[Code]]
+> [[Paper]](https://openreview.net/forum?id=WXKQtqPC2d) [[Agent Implementation Code]]
 
 ---
 
