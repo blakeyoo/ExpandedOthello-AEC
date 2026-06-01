@@ -28,7 +28,7 @@ pip install git+https://github.com/blakeyoo/ExpandedOthello-AEC.git
 Or clone and install locally:
 
 ```bash
-git clone [ExpandedOthello-AEC](https://github.com/blakeyoo/ExpandedOthello-AEC.git)
+git clone https://github.com/blakeyoo/ExpandedOthello-AEC.git
 cd ExpandedOthello-AEC
 pip install -e .
 ```
