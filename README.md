@@ -194,5 +194,5 @@ for pid, r in results.items():
     print(f"Preset {pid}: win={r['win_rate']:.2f} draw={r['draw_rate']:.2f} loss={r['loss_rate']:.2f}")
 ```
 
-`MCTSAgent` is an oracle — it knows the win condition `K` by design, serving as a strong upper-bound baseline.  
+`MCTSAgent` is a (semi) oracle — it knows the win condition `K` by design, serving as a strong upper-bound baseline.  
 Colors alternate across games within each environment to ensure balanced results.
