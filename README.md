@@ -1,4 +1,4 @@
-# Expanded Othello AI Arena
+# Expanded Othello AI Arena Environments
 
 A parametric Othello benchmark for evaluating agents under unseen conditions, as introduced in:
 
